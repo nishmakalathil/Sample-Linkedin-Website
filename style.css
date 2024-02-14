@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+  
+    width:100%;
+    padding:20px;
+    position:absolute;
+    top:0;
+
+}
+
+header .container{
+    display:flex;
+    justify-content:space-between;
+
+}
+header a{
+    text-decoration: none;
+    margin-right:30px;
+    font-size:14px;
+    letter-spacing:1px ;
+    font-family:Tahoma;
+    color:grey;
+    
+}
+  
+
+header .container img{
+
+    height: 100px;
+    width: 100px;
+    margin-top: -37px;
+}
+.container .sign  button{
+
+    border-radius: 40px;
+    height:45px;
+
+}
+
+.banner-container{
+    margin-top:100px ;
+    width:100%;
+    height: 100vh;
+}
+
+.banner-container .left-section h1{
+    font-size: 56px;
+    font-weight:200;
+    
+    color: maroon;
+}
+
+
+
+
+
+.left-section{
+    width:500px;
+    margin-left:20px;
+}
+
+.banner-container .container{
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+}
+.left-section h1{
+    margin:0;
+    color:maroon;
+    font-size: 40px;
+    font-weight: 100;
+}
+.input-group, .submit-button{
+    position:relative;
+    width:100%;
+    padding:10px;
+    margin-left:30px;
+
+
+}
+.submit-button button{
+    
+    border-radius: 40px;
+    height:45px;
+    background-color:#0a66c2;
+    width:350px;
+    border-decoration:none;
+    color:white;
+    
+}
+.input-group input{
+    padding: 20px;
+    height:50px;
+    width:400px;
+    cursor:pointer;
+}
+
+
+
+    
+
+.input-group h2{
+  font-size:15px;
+  color:royalblue;
+
+}
+
+.input-group .google{
+    
+    border-radius: 40px;
+    height:45px;
+    background-color:#ffffff;
+    width:350px;
+}
+.input-group .new-linkedin{
+    
+    border-radius: 40px;
+    height:45px;
+    background-color:#ffffff;
+    width:350px;
+}
+.image-container{
+    display: flex;
+    justify-content:right;
+    
+
+}
+
+.section-container,.image-container{
+
+
+    display: flex;
+    justify-content:right;
+
+}
+.left-section h1{
+    font-size:40px;
+    color:black; 
+}
+
+.card-container .left-section h1{
+    font-size:48px;
+    color:black;
+    font-weight:200%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.card-container .left-section p{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:200;
+}
+
+.card-container  .left-section .millions-jobs h1{
+    font-size:40px;
+    font-weight:400px;
+    color:maroon;
+
+}
+
+
+.card-container .container{
+    display:flex;
+    justify-content: space-around;
+
+}
+.card-container .container{
+    margin-top :70px; 
+}
+
+.card-container button{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+}
+
+
+
+.card-container .right-section button{
+
+    border-radius:15px ;
+    padding:15px ;
+    margin: 3px;
+    display:inline-block;
+    font-size:16px;
+
+}
+.card-container .right-section{
+
+    width: 600px;
+}
+.card-container .image-container2 img{
+    width: 400px;
+    height:400px; 
+}
+
+.find-class{
+    border-radius: 15px;
+    padding:15px ;
+    margin: 3px;
+    display:inline-block;
+    font-size:16px;
+
+
+}
+
+
+.image-container4  img{
+    width:400px;
+    height:400px;
+     
+}
+
+.image-container5 img{
+
+    width:800px;
+    height:800px;
+     
+}
+
+
+
+.left-section .colleagues p{
+    margin-top: 70px;
+}
+
+   
+
+
+
