@@ -38,12 +38,12 @@ header .container img{
     width: 100px;
     margin-top: -37px;
 }
-.container .sign  button{
 
-    border-radius: 40px;
-    height:45px;
 
-}
+    
+   
+
+
 
 .banner-container{
     margin-top:100px ;
@@ -92,7 +92,6 @@ header .container img{
     height:45px;
     background-color:#0a66c2;
     width:350px;
-    border-decoration:none;
     color:white;
     
 }
@@ -186,11 +185,27 @@ header .container img{
 
 .card-container .right-section button{
 
-    border-radius:15px ;
+    border-radius:40px ;
     padding:15px ;
     margin: 3px;
     display:inline-block;
     font-size:16px;
+    
+
+}
+
+
+.card-container .navigate-class button{
+
+
+    border-radius:40px ;
+    padding:15px ;
+    margin: 3px;
+    display:inline-block;
+    font-size:16px;
+    width:350px;
+
+
 
 }
 .card-container .right-section{
@@ -202,15 +217,28 @@ header .container img{
     height:400px; 
 }
 
-.find-class{
-    border-radius: 15px;
-    padding:15px ;
-    margin: 3px;
-    display:inline-block;
-    font-size:16px;
+.card-container .find-class{
 
+     border-radius: 40px;
+    height:45px;
+    background-color:#ffffff;
+    margin:4px;
+    padding:10px;
+}
+
+.sign-in{
+
+ padding:10px;
+ border-radius:30px;
+ width:100px;
+ border-color: blue;
+ background-color: white;
+ color:blue;
+ 
 
 }
+    
+    
 
 
 .image-container4  img{
@@ -226,13 +254,17 @@ header .container img{
      
 }
 
-
-
 .left-section .colleagues p{
     margin-top: 70px;
 }
 
-   
 
+.join-colleagues{
+    padding:10px;
+ border-radius:30px;
+ width:100px;
+ border-color: blue;
+ background-color:white;
+ 
 
-
+}
