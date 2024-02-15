@@ -54,8 +54,9 @@ header .container img{
 .banner-container .left-section h1{
     font-size: 56px;
     font-weight:200;
+    color:rgba(128, 19, 19, 0.9);
     
-    color: maroon;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
@@ -93,6 +94,7 @@ header .container img{
     background-color:#0a66c2;
     width:350px;
     color:white;
+    border:none;
     
 }
 .input-group input{
@@ -195,10 +197,10 @@ header .container img{
 }
 
 
-.card-container .navigate-class button{
+ .navigate-class{
 
 
-    border-radius:40px ;
+    border-radius:10px ;
     padding:15px ;
     margin: 3px;
     display:inline-block;
@@ -217,13 +219,24 @@ header .container img{
     height:400px; 
 }
 
-.card-container .find-class{
+.card-container .find-class1{
 
      border-radius: 40px;
     height:45px;
     background-color:#ffffff;
     margin:4px;
     padding:10px;
+}
+
+.find-class2{border-radius:40px ;
+    padding:15px ;
+    margin: 3px;
+    display:inline-block;
+    font-size:16px;
+    
+
+
+
 }
 
 .sign-in{
@@ -238,7 +251,9 @@ header .container img{
 
 }
     
-    
+.linkedin-for{
+    color:maroon;
+}  
 
 
 .image-container4  img{
@@ -249,8 +264,8 @@ header .container img{
 
 .image-container5 img{
 
-    width:800px;
-    height:800px;
+    width:500px;
+    height:500px;
      
 }
 
@@ -268,3 +283,46 @@ header .container img{
  
 
 }
+.chase-dream{
+    font-size:40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.footer-container{
+    background:url("./images/footer-pic.png");
+    height:1000px;
+}
+.colleagues{
+    font-size:40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+.get-started{
+    border-radius: 40px;
+    height:45px;
+    background-color:blue;
+    width:350px;
+    color:white;
+}
+    
+.mark-show{
+    color:blue;
+    border-color:blue;
+}
+
+.discover-show{
+    color:blue;
+    border-color: blue;
+}
+.post-job{
+    color:blue;
+    border-color: blue;
+
+}
+.gayatri{
+    color:#b24020;
+    font-size:40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
